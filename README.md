@@ -1,2 +1,3 @@
 # html-css
- Curso de HTML5 e CSS3 do CursoemVideo
+Estou aprendendo HTML e CSS com o CursoemVideo!
+Estou aprendendo a fazer sites e gerenciar repositórios! :)
