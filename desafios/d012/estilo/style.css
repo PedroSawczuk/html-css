@@ -25,8 +25,41 @@ header > p {
     padding-bottom: 50px;
 }
 
-a {
+a{
     color: #fff;
     text-decoration: none;
     font-weight: bold;
+}
+
+a:hover{ 
+    text-decoration: underline;
+}
+
+section {
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    line-height: 2em;
+    padding-left: 30px;
+}
+
+section.normal {
+    color: #000;
+    background-color: #fff;
+}
+
+section.imagem {
+    color: #fff;
+    background-color: #000;
+}
+
+section.imagem > p {
+    width: 400px;
+    background-color: #00000041;
+}
+
+footer {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
 }
