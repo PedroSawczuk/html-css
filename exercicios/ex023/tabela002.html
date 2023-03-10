@@ -14,6 +14,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         td, th {
@@ -32,14 +33,15 @@
             background-color: lightblue;
         }
 
-        tbody > tr:nth-child(odd) {
-            background-color: yellow;
+        tbody > tr:nth-child(even) {
+            background-color: lightgray;
             color: black;
         }
 
-        tbody > tr:nth-child(even) {
-            background-color: blue;
-            color: white;
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
+            background-color: gray;
         }
 
         thead, tfoot {
@@ -216,6 +218,6 @@
                 <td><strong>210.147.453</strong></td>
             </tr>
         </tfoot>
-    </table>
+    </table> 
 </body>
 </html>
